@@ -58,7 +58,7 @@ func completeForStatement() {
 	}
 }
 
-// The for statement can be used without an initialization or post statement (condition onlys), which is useful for iterating over a collection of data.
+// The for statement can be used without an initialization or post statement (condition only), which is useful for iterating over a collection of data.
 // It functions like a while loop in other languages.
 func conditionOnlyForStatement() {
 	i := 0
