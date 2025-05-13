@@ -75,14 +75,12 @@ func infiniteStatementLoop() {
 		fmt.Println("Looking for a number betwen 5 and 10...")
 		n := rand.Intn(15)
 
-		if n <= 5 && n >= 10 {
+		if n <= 5 || n >= 10 {
 			continue
 		}
 
-		if n >= 5 && n <= 10 {
-			fmt.Println("Found one:", n)
-			break
-		}
+		fmt.Println("Found one:", n)
+		break
 	}
 }
 
